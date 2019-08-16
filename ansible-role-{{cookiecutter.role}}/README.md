@@ -3,7 +3,7 @@ Ansible role for {{ cookiecutter.role }}
 
 {{ cookiecutter.role_description }}
 
-[![CircleCI](https://img.shields.io/circleci/build/github/mongodb-ansible-roles/ansible-role-{{ cookiecutter.role }}/master?style=flat-square)](https://circleci.com/gh/mongodb-ansible-roles)
+[![CircleCI](https://img.shields.io/circleci/build/github/mongodb-ansible-roles/ansible-role-{{ cookiecutter.role }}/master?style=flat-square)](https://circleci.com/gh/mongodb-ansible-roles/ansible-role-{{ cookiecutter.role }})
 
 Requirements
 ------------
