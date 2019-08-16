@@ -1,0 +1,8 @@
+{
+  "role": "",
+  "role_description": "",
+  "_copy_without_render": [
+    "*verify.yml",
+    "*Dockerfile.j2"
+  ]
+}
