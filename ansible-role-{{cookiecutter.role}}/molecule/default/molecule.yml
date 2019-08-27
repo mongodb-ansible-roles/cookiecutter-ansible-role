@@ -10,6 +10,8 @@ platforms:
     image: debian:9
 provisioner:
   name: ansible
+  connection_options:
+    ansible_ssh_user: evergreen
   lint:
     name: ansible-lint
 verifier:
