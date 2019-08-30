@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import logging
+import sys
 
 from json import loads
 from os import getenv
@@ -32,9 +33,11 @@ if __name__ == '__main__':
         response = urlopen(request)
     except HTTPError:
         logging.error('failed to follow CircleCI project')
+        sys.exit(0)
 
     body = response.read().decode(DEFAULT_CHARACTER_ENCODING)
 
     build_url = loads(body)['build_url']
 
     logging.info('followed project in CircleCI: {}'.format(build_url))
+    sys.exit(0)
