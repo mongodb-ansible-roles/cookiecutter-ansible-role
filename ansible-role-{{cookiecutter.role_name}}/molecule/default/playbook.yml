@@ -3,4 +3,4 @@
   name: Converge
   hosts: all
   roles:
-    - role: ansible-role-{{ cookiecutter.role }}
+    - role: ansible-role-{{ cookiecutter.role_name }}
