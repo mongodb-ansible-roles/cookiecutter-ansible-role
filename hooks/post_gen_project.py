@@ -20,13 +20,14 @@ DEFAULT_CHARACTER_ENCODING = 'UTF-8'
 
 if __name__ == '__main__':
     vcs_type = 'github'
-    username = 'mongodb-ansible-roles'
+    username = '{{ cookiecutter.github_username }}'
     project = '{{ cookiecutter.role_name }}'
     token = getenv('CIRCLECI_TOKEN', default='{{ cookiecutter.circleci_token }}')
     query = {'circle-token': token}
     params = urlencode(query)
     url = 'https://circleci.com/api/v1.1/project/{}/{}/{}/follow?{}'.format(
-        vcs_type, username, project, params)
+        vcs_type, username, project, params
+    )
     request = Request(url)
 
     try:

@@ -1,6 +1,7 @@
 {
   "circleci_token": "",
   "author": "MongoDB",
+  "github_username": "mongodb-ansible-roles",
   "role_name": "",
   "role_description": "",
   "_copy_without_render": [
