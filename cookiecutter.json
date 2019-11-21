@@ -1,5 +1,6 @@
 {
   "circleci_token": "",
+  "author": "MongoDB",
   "role_name": "",
   "role_description": "",
   "_copy_without_render": [
