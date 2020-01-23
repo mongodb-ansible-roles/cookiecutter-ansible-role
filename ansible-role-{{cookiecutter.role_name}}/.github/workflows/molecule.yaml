@@ -13,4 +13,6 @@ jobs:
         run: pip install -r requirements.txt
       - run: molecule test --all
 name: Molecule Test
-on: [push, pull_request]
+'on':
+  - push
+  - pull_request
