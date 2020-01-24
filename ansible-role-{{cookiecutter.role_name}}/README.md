@@ -3,8 +3,8 @@ Ansible role for {{ cookiecutter.role_name }}
 
 {{ cookiecutter.role_description }}
 
-![](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.role_name }}/workflows/Molecule%20Test/badge.svg)
-![](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.role_name }}/workflows/Release/badge.svg)
+[![GitHub Actions](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.role_name }}/workflows/Molecule%20Test/badge.svg)](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.role_name }}/actions?query=workflow%3A%22Molecule+Test%22)
+[![GitHub Actions](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.role_name }}/workflows/Release/badge.svg)](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.role_name }}/actions?query=workflow%3A%22Molecule+Test%22)
 
 Requirements
 ------------
