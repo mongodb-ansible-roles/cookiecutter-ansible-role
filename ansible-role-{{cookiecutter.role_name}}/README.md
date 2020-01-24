@@ -3,7 +3,8 @@ Ansible role for {{ cookiecutter.role_name }}
 
 {{ cookiecutter.role_description }}
 
-[![CircleCI](https://img.shields.io/circleci/build/github/{{ cookiecutter.github_username }}/ansible-role-{{ cookiecutter.role_name }}/master?style=flat-square)](https://circleci.com/gh/{{ cookiecutter.github_username }}/ansible-role-{{ cookiecutter.role_name }})
+![](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.role_name }}/workflows/Molecule%20Test/badge.svg)
+![](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.role_name }}/workflows/Release/badge.svg)
 
 Requirements
 ------------
