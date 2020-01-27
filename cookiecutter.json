@@ -1,11 +1,11 @@
 {
-  "circleci_token": "",
   "author": "MongoDB",
   "github_username": "mongodb-ansible-roles",
   "role_name": "",
   "role_description": "",
   "_copy_without_render": [
     "*verify.yml",
-    "*Dockerfile.j2"
+    "*Dockerfile.j2",
+    "*semantic-release.yaml"
   ]
 }

@@ -15,10 +15,7 @@ jobs:
             @semantic-release/changelog
             @semantic-release/git@8.0.0
 name: Release
-'on':
-  pull_request:
-    branches:
-      - master
+on:
   push:
     branches:
       - master
