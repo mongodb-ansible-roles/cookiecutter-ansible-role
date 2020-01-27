@@ -6,6 +6,7 @@
   "_copy_without_render": [
     "*verify.yml",
     "*Dockerfile.j2",
-    "*semantic-release.yaml"
+    "*semantic-release.yaml",
+    "*prepare.yml"
   ]
 }
