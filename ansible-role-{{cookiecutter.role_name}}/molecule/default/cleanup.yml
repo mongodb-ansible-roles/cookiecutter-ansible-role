@@ -1,12 +1,9 @@
 ---
 - gather_facts: false
   name: Unsubscribe container
-  hosts: all
+  hosts: rhel6
   tasks:
     - name: Unsubscribe container
       command: subscription-manager unregister
       ignore_unreachable: true
       ignore_errors: true
-      when:
-        - ansible_os_family == "RedHat"
-        - ansible_distribution_major_version is version("6", "==")
